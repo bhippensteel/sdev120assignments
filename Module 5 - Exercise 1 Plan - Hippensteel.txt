@@ -1,0 +1,21 @@
+A typical game of Jeopardy has 30 questions per round excluding Double Jeopardy and the Final Question.
+The time limit to answer each question is 5 seconds.
+The program will need variables to keep track of player score, calculate the remaining time, and check if there are questions still unanswered.
+Jeopardy has 6 categories, and 5 questions under each category. Each of these 5 questions has a different award value.
+Each question has a clue, and the respective answer must be phrased as a question.
+Answer format is "What is ..." for example. Incorrect format always results in wrong answer.
+
+The program should start with all player's score set to 0. Scores can be negative.
+Check if there are questions remaining.
+
+Player chooses the category and award value.
+Host reads the question.
+While time is remaining a player can answer.
+Player presses the buzzer.
+Player Answers question.
+If correct player gains award value, if incorrect player loses award value.
+Correctly answering question sets time remaining to 0.
+After time remaining has ended, number of questions is reduced by one.
+A new question is chosen and the timer is reset.
+
+Once no questions remain the game has ended and player with highest score wins.
